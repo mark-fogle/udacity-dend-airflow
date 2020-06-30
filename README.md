@@ -91,7 +91,7 @@ Airflow will need two connections:
 * redshift - A PostgreSQL connection with credentials to Amazon Redshift
 * aws_credentials - Amazon Web Services connection with cr4edentials to access S3.
 
-## Setup Fatabase
+## Setup Database
 
 In order to create the tables in Redshift, I have included a DAG setup_dag.py that will create the necessary tables.
 
