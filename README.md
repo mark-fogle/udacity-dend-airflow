@@ -1,5 +1,7 @@
 # Project: Data Pipelines with Airflow
 
+![Apache Airflow Logo](.\images\AirflowLogo.png)
+
 ## Scenario
 
 A music streaming company, Sparkify, has decided that it is time to introduce more automation and monitoring to their data warehouse ETL pipelines and come to the conclusion that the best tool to achieve this is Apache Airflow.
@@ -60,10 +62,10 @@ This operator allows for data quality checks against the data once the ETL proce
 This operator has the folloing parameters:
 
 * redshift_conn_id - The connection ID of the Amazon Redshift connection configured in Apache Airflow. Defaults to 'redshift'
-* sql_check_queries - List of SQL statements that corresond to data quality checks to be performed.
+* sql_check_queries - List of SQL statements that correspond to data quality checks to be performed.
 * expected_results - List of lambda expression used as predicates to validate the number of rows returned from the data quality check SQL statements
 
-i.e. You may have a SQL statementL:
+i.e. You may have a SQL statement:
 
 ```sql
  SELECT COUNT(*) FROM songs WHERE songid IS NULL
