@@ -1,6 +1,6 @@
 # Project: Data Pipelines with Airflow
 
-![Apache Airflow Logo](.\images\AirflowLogo.png)
+![Apache Airflow Logo](images/AirflowLogo.png)
 
 ## Scenario
 
