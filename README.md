@@ -79,7 +79,7 @@ lambda num_rows: num_rows==0
 
 ### Pipeline Diagram
 
-![Pipeline Diagram](.\images\pipeline.png)
+![Pipeline Diagram](images/pipeline.png)
 
 ## Setup Airflow
 
