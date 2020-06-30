@@ -21,7 +21,7 @@ This operator will load JSON data from Amazon S3 into staging tables in Amazon R
 The staging operation is based on parameters passed to the operator:
 
 * redshift_conn_id - The connection ID of the Amazon Redshift connection configured in Apache Airflow. Defaults to 'redshift'
-* aws_credentials_id - The connection ID of the credentials to conenct to Amazon S3 configured in Apache Airflow. Defaults to 'aws_credentials'
+* aws_credentials_id - The connection ID of the credentials to connect to Amazon S3 configured in Apache Airflow. Defaults to 'aws_credentials'
 * table_name - The staging table name where data will be copied.
 * s3_bucket - The Amazon S3 bucket where data will be copied from.
 * json_path - The JSON path parameter used during Redshift copy operation. Defaults to 'auto'
